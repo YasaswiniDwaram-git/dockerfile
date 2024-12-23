@@ -1,4 +1,4 @@
-ENV version=9
+ARG version=9
 FROM almalinux:${version}
 ARG name="yash" \
     age="24"
